@@ -1,0 +1,17 @@
+{{#each data}}
+
+<div class="figureSplash">
+    {{#if (isEven id) }}
+
+    {{>figureCaption}}
+    {{>figure}}
+
+    {{else}}
+
+    {{>figure}}
+    {{>figureCaption}}
+
+    {{/if}}
+</div>
+
+{{/each}}

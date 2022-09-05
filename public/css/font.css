@@ -1,0 +1,71 @@
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap"); */
+
+:root {
+  --font-fallback: "Segoe UI", "Roboto", sans-serif;
+}
+
+@font-face {
+  font-family: "Roboto Flex";
+  src: url("RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].woff2")
+    format("woff2-variations");
+  font-weight: 100 1000;
+  font-stretch: 20% 150%;
+}
+
+@font-face {
+  font-family: "Dancing Script";
+  src: url("/font/DancingScript-VariableFont_wght.woff2")
+    format("woff2-variations");
+  font-weight: 100 1000;
+  font-stretch: 50% 150%;
+}
+
+html {
+  font-family: "Segoe UI", Helvetica, "Roboto", Arial, sans-serif;
+  /* 0.0625 * 16px = 1 (i.e., 1rem = 1px) */
+  font-size: 6.25%;
+}
+
+font-dancing {
+  font-family: "Dancing Script" sans-serif;
+  font-variation-settings: "wght" 400;
+}
+
+header {
+  font-size: 18rem;
+}
+
+footer {
+  font-size: 16rem;
+}
+
+body {
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 18rem;
+}
+
+h1 {
+  font-family: "Dancing Script", var(--font-fallback);
+  font-variation-settings: "wght" 500, "slnt" 50, "wdth" 50%;
+  font-size: 36rem;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}

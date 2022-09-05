@@ -1,0 +1,13 @@
+<div class="figureCaption">
+  <h2>{{title}}</h2>
+  <p>{{{notes}}}</p>
+  {{#if refer}}
+    <a class="figureSplashButton" href="{{refer}}">
+      {{#if click}}
+        {{click}}
+      {{else}}
+        Learn more
+      {{/if}}
+    </a>
+  {{/if}}
+</div>

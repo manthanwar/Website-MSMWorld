@@ -1,0 +1,59 @@
+<style>
+  .feedbackContainer { width: 80%; margin: auto; padding: 10px 50px 20px 40px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; border-radius: 10px;
+  border: 1px solid whitesmoke; } .floating-label-group { position: relative;
+  margin-top: 20px; margin-bottom: 20px; } .floating-label-group input { height:
+  40px; font-family: 'Segoe UI', Arial, Helvetica, sans-serif; font-size: 24px;
+  letter-spacing: 2px; padding: 4px 10px; } .floating-label { height: 24px;
+  font-size: 20px; line-height: 24px; padding: 0 10px 0px 10px; border-radius:
+  6px; /* color: #cccccc; */ color: gray; position: absolute; pointer-events:
+  none; top: 10px; left: 12px; transition: all 0.1s ease; background-color:
+  white; } input:focus~.floating-label, input:not(:focus):valid~.floating-label,
+  textarea:focus~.floating-label, textarea:not(:focus).floating-label { top:
+  -14px; bottom: 0px; left: 0px; font-size: 16px; opacity: 1; color: #404040; }
+</style>
+
+<div class="page">
+  <h1>Send Us Your Feedback and Comments</h1>
+
+  <div class="feedbackContainer">
+    <form action="/feedback" method="POST">
+      <!-- <fieldset>
+                <legend>Personalia:</legend> -->
+
+      <div class="floating-label-group">
+        <input type="text" id="nameF" autocomplete="off" autofocus required />
+        <label class="floating-label">First Name</label>
+      </div>
+
+      <div class="floating-label-group">
+        <input type="text" id="nameL" autocomplete="off" autofocus required />
+        <label class="floating-label">Last Name</label>
+      </div>
+
+      <div class="floating-label-group">
+        <input type="email" id="email" autocomplete="off" autofocus required />
+        <label class="floating-label">Email</label>
+      </div>
+
+      <div class="floating-label-group">
+
+        <textarea
+          id="about"
+          name="w3review"
+          rows="4"
+          cols="50"
+          autocomplete="off"
+          autofocus
+          required
+        >
+
+        </textarea>
+
+        <label class="floating-label">Message</label>
+      </div>
+      <input type="submit" value="Submit" />
+      <!-- </fieldset> -->
+    </form>
+  </div>
+</div>

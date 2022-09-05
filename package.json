@@ -1,0 +1,40 @@
+{
+  "name": "msmworld",
+  "version": "1.0.0",
+  "description": "World of Art, Architecture, Literature, History and Culture",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manthanwar/MSMWorld.git"
+  },
+  "keywords": [
+    "Art",
+    "Architecture",
+    "Literature",
+    "History",
+    "Culture",
+    "India",
+    "Maharashtra",
+    "Pune"
+  ],
+  "author": "Amit Manohar Manthanwar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manthanwar/MSMWorld/issues"
+  },
+  "homepage": "https://github.com/manthanwar/MSMWorld#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "node-xlsx": "^0.21.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.2",
+    "nodemon": "^2.0.19"
+  }
+}

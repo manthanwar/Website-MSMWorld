@@ -1,0 +1,77 @@
+.errorBackground::before {
+    content: '';
+    background-image: url('/media/jpg/goal-3144351_1920.jpg');
+
+    //background-repeat: no-repeat; 
+    background-position: 50% 50%;
+    //background-size: cover;
+    //filter: blur(1px);
+    width: calc(100% + 400px);
+    height: calc(100% + 400px);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+
+
+.errorContainer {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(5px);
+    filter: drop-shadow(0 0 20px silver);
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+    user-select: none;
+
+    border-radius: 50% 50% 100px 100px;
+}
+
+.errorGoHome {
+    margin: 60px 0 20px 0;
+}
+
+.errorGoHomeLink:hover {
+    background-color: teal;
+    color: white;
+}
+
+
+.errorGoHomeLink {
+    padding: 10px 20px;
+    border: 1px solid teal;
+    margin-top: 140px;
+}
+
+
+.errorIconContainer {}
+
+.errorIcon {
+    color: red;
+    font-size: 60px;
+    margin: 20px;
+    display: none;
+}
+
+.errorIconMessage {
+    display: block;
+    margin: 30px 0 20px -10px;
+    color: #A06D66;
+    font-size: 60px;
+}
+
+.errorMessage {
+    margin: 40px;
+    font-size: 30px;
+    color: #606A6C;
+
+}

@@ -1,0 +1,15 @@
+<div class="figure">
+  {{#with image}}
+    <img id="img" src="{{place}}/{{title}}" alt="{{brief}}" style="{{style}}" />
+    <div class="figureSource">
+      {{#if maker}}
+        Image by
+        <a href="{{linkM}}">{{maker}}</a>
+      {{/if}}
+      {{#if owner}}
+        Sourced from
+        <a href="{{linkO}}">{{owner}}</a>
+      {{/if}}
+    </div>
+  {{/with}}
+</div>
