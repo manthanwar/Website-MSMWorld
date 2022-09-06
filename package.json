@@ -4,8 +4,9 @@
   "description": "World of Art, Architecture, Literature, History and Culture",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "dev": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
